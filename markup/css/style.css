@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "HelveticaNeueCyr";
+  font-family: "Helvetica Neue Cyr";
   src: local("HelveticaNeueCyr-Bold"),
     url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff"),
     url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff");
@@ -17,7 +17,7 @@
 }
 
 @font-face {
-  font-family: "HelveticaNeueCyr";
+  font-family: "Helvetica Neue Cyr";
   src: local("HelveticaNeueCyr-Roman"),
     url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"),
     url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff");
@@ -26,7 +26,7 @@
 }
 
 body {
-  font-family: "HelveticaNeueCyr", Arial, sans-serif;
+  font-family: "Helvetica Neue Cyr", Arial, sans-serif;
 }
 
 .container {

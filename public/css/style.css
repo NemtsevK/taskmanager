@@ -1,32 +1,26 @@
 @font-face {
-  font-family: "HelveticaNeueCyr";
-  src: local("HelveticaNeueCyr-Bold"),
-    url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff"),
-    url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff");
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "HelveticaNeueCyr";
-  src: local("HelveticaNeueCyr-Medium"),
-    url("../fonts/HelveticaNeueCyr-Medium.woff2") format("woff2"),
-    url("../fonts/HelveticaNeueCyr-Medium.woff") format("woff");
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/HelveticaNeueCyr-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "HelveticaNeueCyr";
-  src: local("HelveticaNeueCyr-Roman"),
-    url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"),
-    url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff");
+  font-family: "Helvetica Neue Cyr";
+  src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  font-family: "HelveticaNeueCyr", Arial, sans-serif;
+  font-family: "Helvetica Neue Cyr", Arial, sans-serif;
 }
 
 .container {
@@ -288,7 +282,6 @@ body {
   font-size: 16px;
   overflow: auto;
   box-sizing: border-box;
-  border-color: transparent;
 }
 .card__text:focus {
   border-color: #000000;
@@ -436,13 +429,12 @@ body {
   width: auto;
   border: 0;
   padding: 0;
-  margin: 0;
   font-size: 11px;
   text-transform: uppercase;
   font-weight: 500;
   text-align: left;
   cursor: pointer;
-  margin-bottom: 10px;
+  margin: 0 0 10px;
   border-bottom: 1px solid #000000;
   outline: none;
   background-color: transparent;
@@ -457,8 +449,7 @@ body {
   flex-direction: column;
 }
 .card__colors-title {
-  margin: 0;
-  margin-bottom: 10px;
+  margin: 0 0 10px;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 500;
@@ -565,12 +556,10 @@ body {
 }
 .card--edit .card__delete {
   display: flex;
-  border: 0;
   padding: 5px 0;
-  margin: 0;
   background-color: transparent;
   justify-content: center;
-  margin-top: 5px;
+  margin: 5px 0 0;
   color: red;
   text-transform: uppercase;
   font-size: 10px;
