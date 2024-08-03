@@ -1,9 +1,11 @@
 {
   "name": "taskmanager",
-  "author": "Nemtsev Konstantin <nemtsevk@hotmail.com> (https://github.com/nemtsev-k)",
-  "description": "Проект «Менеджер задач» от HTML Academy",
-  "homepage": "https://nemtsev-k.github.io/taskmanager/",
+  "author": "Nemtsev Konstantin <nemtsevk@hotmail.com> (https://github.com/NemtsevK)",
+  "description": "Личный проект «Менеджер задач»",
+  "homepage": "https://nemtsevk.github.io/taskmanager/",
+  "repository": "https://github.com/NemtsevK/taskmanager/",
   "private": true,
+  "type": "module",
   "browserslist": [
     "last 2 versions",
     "not dead",
@@ -32,13 +34,14 @@
     "webpack-cli": "5.1.4",
     "webpack-dev-server": "4.15.1"
   },
-  "engines": {
-    "node": "^20.14.0"
-  },
   "dependencies": {
     "dayjs": "1.11.10",
     "flatpickr": "4.6.13",
     "he": "1.2.0",
     "nanoid": "5.0.3"
+  },
+  "engines": {
+    "node": "^20.15.1",
+    "npm": "^10.8.2"
   }
 }
